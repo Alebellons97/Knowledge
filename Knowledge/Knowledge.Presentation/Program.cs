@@ -1,10 +1,17 @@
-﻿namespace Knowledge.Presentation
+﻿using Knowledge.Presentation.Basics;
+using Knowledge.Presentation.Exercises;
+
+namespace Knowledge.Presentation
 {
     internal class Program
     {
         static void Main()
         {
-            Console.WriteLine("Hello, World!");
+
+            Basic.Es1();
+
         }
+
+
     }
 }
