@@ -8,10 +8,6 @@ namespace Knowledge.Presentation
         static void Main()
         {
 
-            Basic.Es1();
-
         }
-
-
     }
 }

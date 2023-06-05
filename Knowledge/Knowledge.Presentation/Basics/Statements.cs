@@ -16,12 +16,14 @@ namespace Knowledge.Presentation.Basics
             if(shouldExecute)
             {
                 // codice
+
+                if(1 == 1)
+                {
+                    // codice
+                }
             }
 
-            if(1 == 1)
-            {
-                // codice
-            }
+
         }
 
         static void While()
@@ -34,26 +36,28 @@ namespace Knowledge.Presentation.Basics
             {
                 int randomNumber = new Random().Next(10); // numero a caso
 
-                if(randomNumber == 0 || randomNumber == 5)
+                if(randomNumber == 0 || randomNumber == 5)         
                     continue; // salta alla fine del ciclo, e continua con la prossima iterazione
+                      
                 if(randomNumber > 8)
                     break; // esce dal ciclo
-                if(randomNumber == 5)
+
+                if(randomNumber == 6)
                     shouldContinue = false; // rende l'argomento del while falso, quindi sara' l'ultima iterazione
 
-                result++;
+                counter++;
             }
 
-            Console.WriteLine(result);
+            Console.WriteLine(counter);
         }
 
-        static void ForEach() // Da Spiegare
+        static void ForEach() 
         {
             // IEnumerable e' l'interfaccia da che tutti gli oggetti iterabili devono implementare
             List<int> integers = new List<int>() { 10, 20, 30, 40, 50 };
             int result = default;
 
-            foreach(int item in integers)
+            foreach(int item in integers) // esegue il ciclo per ogni elemento della lista
             {
                 // integers.Add(100); // nota: non posso modificare la lista all'interno del ciclo
                 if(item == 30)
@@ -63,9 +67,10 @@ namespace Knowledge.Presentation.Basics
 
                 result++;
             }
+
         }
 
-        static void For() // Da Spiegare
+        static void For() 
         {
             int result = default;
 
