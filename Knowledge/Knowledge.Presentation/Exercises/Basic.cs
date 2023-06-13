@@ -105,5 +105,34 @@ namespace Knowledge.Presentation.Exercises
         }
 
 
+        public static void Es7()
+        {
+            // stampa sulla consolle la somma , la moltiplicazione , sottr, divs, 2 numeri inseriti dall utente 
+
+            Console.WriteLine("inserisci 2 numeri ");
+
+            float numero1 = float.Parse(Console.ReadLine());
+            float numero2 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine(numero1 + numero2);
+            Console.WriteLine(numero1 - numero2);
+            Console.WriteLine(numero1 * numero2);
+
+            float tot;
+            
+            if (numero1 > numero2)
+            {
+                tot = numero1 / numero2;
+                
+            }
+            else
+            {
+                 tot = numero2 / numero1;
+            }
+
+            Console.WriteLine(tot);
+
+        }
+
     }
 }

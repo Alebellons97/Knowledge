@@ -7,7 +7,7 @@ namespace Knowledge.Presentation
     {
         static void Main()
         {
-            Basic.Es6();
+            Basic.Es7();
 
 
 
