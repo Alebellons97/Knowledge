@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Knowledge.Presentation.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -133,6 +134,28 @@ namespace Knowledge.Presentation.Exercises
             Console.WriteLine(tot);
 
         }
+
+        public static void Es14() 
+       // conversione gradi celsius a kelvin e farha
+        
+        {
+            Console.WriteLine("la temp in c° è :");
+            float celsius = float.Parse(Console.ReadLine());
+
+            
+            Console.WriteLine(" la temp in kelvin è :");
+            Console.WriteLine(TemperatureUtils.CelsiusToKelvin(celsius));
+            
+            Console.WriteLine(" la temp in far è : ");
+            Console.WriteLine(TemperatureUtils.CelsiusToFahrenheit(celsius));
+            
+
+
+
+        }
+
+
+
 
     }
 }
