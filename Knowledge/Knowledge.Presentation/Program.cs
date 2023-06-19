@@ -7,10 +7,7 @@ namespace Knowledge.Presentation
     {
         static void Main()
         {
-            Basic.Es14();
-
-
-
+            OOP.DataStructure();
         }
 
 
