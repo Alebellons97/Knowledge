@@ -147,15 +147,9 @@ namespace Knowledge.Presentation.Exercises
             Console.WriteLine(TemperatureUtils.CelsiusToKelvin(celsius));
             
             Console.WriteLine(" la temp in far è : ");
-            Console.WriteLine(TemperatureUtils.CelsiusToFahrenheit(celsius));
-            
-
-
+            Console.WriteLine(TemperatureUtils.CelsiusToFahrenheit(celsius));           
 
         }
-
-
-
 
     }
 }
